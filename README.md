@@ -1,7 +1,7 @@
 # ScribeSync
 
 <div style="text-align: center;">
-    <img src="ScribeSync_Logo.png" alt="ScribeSync Logo" width="400"/>
+    <img src="assets/ScribeSync_Logo_Slogan.png" alt="ScribeSync Logo" width="400"/>
     <h1>ScribeSync</h1>
 </div>
 
