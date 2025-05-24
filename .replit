@@ -2,7 +2,7 @@
 modules = ["python-base-3.13", "postgresql-16"]
 [nix]
 channel = "stable-24_05"
-packages = ["freetype", "lcms2", "libimagequant", "libjpeg", "libtiff", "libwebp", "libxcrypt", "openjpeg", "tcl", "tk", "zlib", "xorg.libX11", "xorg.libXrender", "xorg.libxcb", "xorg.libXext", "libGL", "libGLU"]
+packages = ["freetype", "lcms2", "libGL", "libGLU", "libimagequant", "libjpeg", "libtiff", "libwebp", "libxcrypt", "openjpeg", "tcl", "tk", "xorg.libX11", "xorg.libXext", "xorg.libXrender", "xorg.libxcb", "zlib"]
 
 [[ports]]
 localPort = 5000
