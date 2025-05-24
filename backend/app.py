@@ -22,8 +22,7 @@ app.secret_key = os.getenv('FLASK_SECRET_KEY')
 
 db.init_app(app)
 
-@app.before_first_request
-def create_tables():
+with app.app_context():
     db.create_all()
 
 def refresh_google_token(user):
