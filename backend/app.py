@@ -1,6 +1,6 @@
 
 from flask import Flask, session, redirect, url_for, request, jsonify
-from models.user import db, User
+from models.db_models import db, User, Document, Page
 import os
 from datetime import datetime, timedelta
 from google.oauth2.credentials import Credentials
