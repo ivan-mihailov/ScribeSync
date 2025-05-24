@@ -1,0 +1,224 @@
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Image shape: (3301, 2550, 3)
+Checkbox position: (55, 55, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Unique values in binary ROI: [255]
+Page 1: Not checked
+Page 2: Not checked
+Page 3: Not checked
+Page 4: Not checked
+Page 5: Not checked
+Page 6: Not checked
+Page 7: Not checked
+Page 8: Not checked
+Page 9: Not checked
+Page 10: Not checked
+Page 11: Not checked
+Page 12: Not checked
+Page 13: Not checked
+Page 14: Not checked
+Page 15: Not checked
+Page 16: Not checked
+Page 17: Not checked
+Page 18: Not checked
+Page 19: Not checked
+Page 20: Not checked
+Page 21: Not checked
+Page 22: Not checked
+Page 23: Not checked
+Page 24: Not checked
+Page 25: Not checked
+Page 26: Not checked
+Page 27: Not checked
+Page 28: Not checked
+Page 29: Not checked
+Page 30: Not checked
+Page 31: Not checked
+Page 32: Not checked
