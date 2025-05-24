@@ -18,9 +18,13 @@ def check_checkbox(image_path, checkbox_position, checkbox_size):
 
     # Count dark pixels (assuming dark is the checkbox being ticked)
     dark_pixel_count = cv2.countNonZero(binary_roi == 0)
+    
+    # Save debug image to check ROI
+    cv2.imwrite('debug_checkbox_roi.png', binary_roi)
+    print(f"Dark pixel count: {dark_pixel_count}")
 
-    # Define your threshold N, which is the number of dark pixels that indicates a tick
-    N = 100  # Example threshold, adjust as necessary
+    # Based on testing, a tick typically has > 400 dark pixels in a 35x35 ROI
+    N = 400  # Threshold calibrated for 35x35 checkbox at 300 DPI
 
     if dark_pixel_count > N:
         return True  # Checkbox ticked
