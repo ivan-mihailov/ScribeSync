@@ -1,8 +1,32 @@
 import cv2
 import numpy as np
 from PIL import Image
+import pypdfium2 as pdfium
 
-def check_checkbox(image_path, checkbox_position, checkbox_size):
+def process_pdf_pages(pdf_path, checkbox_position, checkbox_size):
+    # Load PDF
+    pdf = pdfium.PdfDocument(pdf_path)
+    results = []
+    
+    # Process each page
+    for page_number in range(len(pdf)):
+        page = pdf[page_number]
+        # Render page at 300 DPI (same as logo placement)
+        bitmap = page.render(scale=300/72)
+        # Convert to OpenCV format
+        pil_image = bitmap.to_pil()
+        opencv_image = cv2.cvtColor(np.array(pil_image), cv2.COLOR_RGB2BGR)
+        
+        # Check checkbox on this page
+        is_checked = check_checkbox(opencv_image, checkbox_position, checkbox_size)
+        results.append({
+            'page': page_number + 1,
+            'checked': is_checked
+        })
+    
+    return results
+
+def check_checkbox(image, checkbox_position, checkbox_size):
     # Load image
     image = cv2.imread(image_path)
 
@@ -31,17 +55,16 @@ def check_checkbox(image_path, checkbox_position, checkbox_size):
     else:
         return False  # Checkbox not ticked
 
-# Usage example
-image_path = "assets/May_2025_with_handwriting_ScribeSync_Logo.pdf"
-# Calculate position based on logo placement (at 300 DPI)
-x_offset_px = int(3 * 300 / 25.4)  # 3mm from left
-y_offset_px = int(3 * 300 / 25.4)  # 3mm from top
-checkbox_size = (35, 35)  # Size in pixels at 300 DPI
-checkbox_position = (x_offset_px + 20, y_offset_px + 20, checkbox_size[0], checkbox_size[1])  # Offset within logo
-is_checked = check_checkbox(image_path, checkbox_position, checkbox_size)
-
-if is_checked:
-    print("Checkbox is ticked.")
-else:
-    print("Checkbox is not ticked.")
+if __name__ == "__main__":
+    # Usage example
+    pdf_path = "assets/May_2025_with_handwriting_ScribeSync_Logo.pdf"
+    # Calculate position based on logo placement (at 300 DPI)
+    x_offset_px = int(3 * 300 / 25.4)  # 3mm from left
+    y_offset_px = int(3 * 300 / 25.4)  # 3mm from top
+    checkbox_size = (35, 35)  # Size in pixels at 300 DPI
+    checkbox_position = (x_offset_px + 20, y_offset_px + 20, checkbox_size[0], checkbox_size[1])  # Offset within logo
+    
+    results = process_pdf_pages(pdf_path, checkbox_position, checkbox_size)
+    for result in results:
+        print(f"Page {result['page']}: {'Checked' if result['checked'] else 'Not checked'}")
     
