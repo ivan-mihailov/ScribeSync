@@ -41,18 +41,24 @@ def check_checkbox(image, checkbox_position, checkbox_size):
     print(f"Gray ROI shape: {gray_roi.shape}")
     cv2.imwrite('debug_gray_roi.png', gray_roi)
 
-    # Apply Otsu's thresholding
-    _, binary_roi = cv2.threshold(gray_roi, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+    # Apply adaptive thresholding instead of Otsu
+    binary_roi = cv2.adaptiveThreshold(
+        gray_roi, 
+        255, 
+        cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+        cv2.THRESH_BINARY_INV, 
+        11, 
+        2
+    )
 
     # Count dark pixels (assuming dark is the checkbox being ticked)
-    dark_pixels = (binary_roi == 0).astype(np.uint8)
-    dark_pixel_count = cv2.countNonZero(dark_pixels)
+    dark_pixel_count = cv2.countNonZero(binary_roi)
     
     # Save debug images
     cv2.imwrite('debug_checkbox_roi.png', binary_roi)
     cv2.imwrite('debug_original_roi.png', roi)
     print(f"Dark pixel count: {dark_pixel_count}")
-    print(f"Unique values in binary ROI: {np.unique(binary_roi)}")
+    print(f"Mean pixel value in gray ROI: {np.mean(gray_roi)}")
 
     # Based on testing, a tick typically has > 400 dark pixels in a 35x35 ROI
     N = 400  # Threshold calibrated for 35x35 checkbox at 300 DPI
@@ -69,7 +75,7 @@ if __name__ == "__main__":
     x_offset_px = int(3 * 300 / 25.4)  # 3mm from left
     y_offset_px = int(3 * 300 / 25.4)  # 3mm from top
     checkbox_size = (35, 35)  # Size in pixels at 300 DPI
-    checkbox_position = (x_offset_px + 20, y_offset_px + 20, checkbox_size[0], checkbox_size[1])  # Offset within logo
+    checkbox_position = (x_offset_px + 35, y_offset_px + 35, checkbox_size[0], checkbox_size[1])  # Adjusted offset
     
     results = process_pdf_pages(pdf_path, checkbox_position, checkbox_size)
     for result in results:
