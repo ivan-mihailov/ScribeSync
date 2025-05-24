@@ -72,10 +72,8 @@ if __name__ == "__main__":
     # Usage example
     pdf_path = "assets/May_2025_with_handwriting_ScribeSync_Logo_Ticked.pdf"
     # Calculate position based on logo placement (at 300 DPI)
-    x_offset_px = int(3 * 300 / 25.4)  # 3mm from left
-    y_offset_px = int(3 * 300 / 25.4)  # 3mm from top
-    checkbox_size = (35, 35)  # Size in pixels at 300 DPI
-    checkbox_position = (x_offset_px, y_offset_px, checkbox_size[0], checkbox_size[1])  # Top left position
+    checkbox_size = (20, 20)  # Size in pixels
+    checkbox_position = (100, 55, checkbox_size[0], checkbox_size[1])  # Exact position
     
     results = process_pdf_pages(pdf_path, checkbox_position, checkbox_size)
     for result in results:
