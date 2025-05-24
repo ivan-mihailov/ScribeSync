@@ -75,7 +75,7 @@ if __name__ == "__main__":
     x_offset_px = int(3 * 300 / 25.4)  # 3mm from left
     y_offset_px = int(3 * 300 / 25.4)  # 3mm from top
     checkbox_size = (35, 35)  # Size in pixels at 300 DPI
-    checkbox_position = (x_offset_px + 35, y_offset_px + 35, checkbox_size[0], checkbox_size[1])  # Adjusted offset
+    checkbox_position = (x_offset_px + 90, y_offset_px + 90, checkbox_size[0], checkbox_size[1])  # Adjusted offset
     
     results = process_pdf_pages(pdf_path, checkbox_position, checkbox_size)
     for result in results:
