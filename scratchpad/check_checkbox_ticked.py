@@ -40,7 +40,8 @@ def check_checkbox(image, checkbox_position, checkbox_size):
     _, binary_roi = cv2.threshold(gray_roi, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
     # Count dark pixels (assuming dark is the checkbox being ticked)
-    dark_pixel_count = cv2.countNonZero(binary_roi == 0)
+    dark_pixels = (binary_roi == 0).astype(np.uint8)
+    dark_pixel_count = cv2.countNonZero(dark_pixels)
     
     # Save debug image to check ROI
     cv2.imwrite('debug_checkbox_roi.png', binary_roi)
