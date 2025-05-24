@@ -28,13 +28,18 @@ def process_pdf_pages(pdf_path, checkbox_position, checkbox_size):
 
 def check_checkbox(image, checkbox_position, checkbox_size):
     # Use the image directly (it's already loaded)
+    print(f"Image shape: {image.shape}")
+    print(f"Checkbox position: {checkbox_position}")
     
     # Crop the region of interest (ROI) for the checkbox
     x, y, width, height = checkbox_position
     roi = image[y:y + height, x:x + width]
+    print(f"ROI shape: {roi.shape}")
 
     # Convert to grayscale
     gray_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
+    print(f"Gray ROI shape: {gray_roi.shape}")
+    cv2.imwrite('debug_gray_roi.png', gray_roi)
 
     # Apply Otsu's thresholding
     _, binary_roi = cv2.threshold(gray_roi, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
@@ -43,9 +48,11 @@ def check_checkbox(image, checkbox_position, checkbox_size):
     dark_pixels = (binary_roi == 0).astype(np.uint8)
     dark_pixel_count = cv2.countNonZero(dark_pixels)
     
-    # Save debug image to check ROI
+    # Save debug images
     cv2.imwrite('debug_checkbox_roi.png', binary_roi)
+    cv2.imwrite('debug_original_roi.png', roi)
     print(f"Dark pixel count: {dark_pixel_count}")
+    print(f"Unique values in binary ROI: {np.unique(binary_roi)}")
 
     # Based on testing, a tick typically has > 400 dark pixels in a 35x35 ROI
     N = 400  # Threshold calibrated for 35x35 checkbox at 300 DPI
