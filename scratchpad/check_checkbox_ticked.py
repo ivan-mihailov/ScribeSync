@@ -57,7 +57,7 @@ def check_checkbox(image, checkbox_position, checkbox_size):
 
 if __name__ == "__main__":
     # Usage example
-    pdf_path = "assets/May_2025_with_handwriting_ScribeSync_Logo.pdf"
+    pdf_path = "assets/May_2025_with_handwriting_ScribeSync_Logo_Ticked.pdf"
     # Calculate position based on logo placement (at 300 DPI)
     x_offset_px = int(3 * 300 / 25.4)  # 3mm from left
     y_offset_px = int(3 * 300 / 25.4)  # 3mm from top
