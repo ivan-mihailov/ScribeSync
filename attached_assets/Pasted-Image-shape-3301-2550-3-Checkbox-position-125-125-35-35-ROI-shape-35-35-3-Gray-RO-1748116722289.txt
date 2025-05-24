@@ -1,0 +1,192 @@
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
+Image shape: (3301, 2550, 3)
+Checkbox position: (125, 125, 35, 35)
+ROI shape: (35, 35, 3)
+Gray ROI shape: (35, 35)
+Dark pixel count: 0
+Mean pixel value in gray ROI: 254.96163265306123
