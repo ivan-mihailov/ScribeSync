@@ -5,30 +5,48 @@ def remove_left_margin_content(input_pdf, output_pdf):
     # Open the PDF
     doc = pdfium.PdfDocument(input_pdf)
     
-    # For each page, add a white overlay on the left margin
-    for page in doc:
-        # Create a form XObject for the white overlay
-        form = page.new_form_xobject(0, 0, 60, 842)  # left margin area
-        form.fill_rect(0, 0, 60, 842, (255, 255, 255))  # white rectangle
+    # Create a bitmap for each page and draw white rectangle
+    for i in range(len(doc)):
+        page = doc[i]
+        bitmap = page.render(
+            scale=1.0,
+            rotation=0
+        )
+        # Draw white rectangle on the left margin
+        for y in range(bitmap.height):
+            for x in range(min(60, bitmap.width)):
+                bitmap.set_pixel(x, y, (255, 255, 255))
+        
+        # Update the page with modified bitmap
+        page.set_bitmap(bitmap)
     
     # Save intermediate result
     doc.save(output_pdf)
     return output_pdf
 
 def add_logo_to_pages(input_pdf, logo_path, output_pdf):
-    # Open the PDF
+    # Open the PDF and logo
     doc = pdfium.PdfDocument(input_pdf)
-    logo = pdfium.PdfDocument.new_from_file(logo_path)
+    logo_doc = pdfium.PdfDocument(logo_path)
     
     # Calculate scale for 10mm at 300dpi
     target_size = 28.35  # 10mm in points
-    original_width = logo.get_page(0).get_width()
+    logo_page = logo_doc[0]
+    original_width = logo_page.get_width()
     scale = target_size / original_width
     
     # Add logo to each page
     for page in doc:
-        form = page.new_form_xobject(10, 800, target_size, target_size)
-        form.insert_object(logo.get_page(0), scale=scale)
+        # Create bitmap of logo
+        logo_bitmap = logo_page.render(scale=scale)
+        # Get page dimensions
+        page_width = page.get_width()
+        page_height = page.get_height()
+        
+        # Position logo at top-left (10, page_height - 50)
+        page_bitmap = page.render(scale=1.0)
+        page_bitmap.paste(logo_bitmap, 10, page_height - 50)
+        page.set_bitmap(page_bitmap)
     
     # Save final result
     doc.save(output_pdf)
