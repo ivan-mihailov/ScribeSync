@@ -1,5 +1,7 @@
 # ScribeSync
 
+![ScribeSync Logo](ScribeSync_Logo.png)
+
 ## Overview
 ScribeSync aims to bridge handwriting and digital workflows, transforming devices like the Kindle Scribe into an extension of digital planning and productivity.
 
