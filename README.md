@@ -1,6 +1,9 @@
 # ScribeSync
 
-![ScribeSync Logo](ScribeSync_Logo.png)
+<div style="text-align: center;">
+    <img src="ScribeSync_Logo.png" alt="ScribeSync Logo" width="400"/>
+    <h1>ScribeSync</h1>
+</div>
 
 ## Overview
 ScribeSync aims to bridge handwriting and digital workflows, transforming devices like the Kindle Scribe into an extension of digital planning and productivity.
