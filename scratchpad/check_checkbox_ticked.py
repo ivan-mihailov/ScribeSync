@@ -27,9 +27,8 @@ def process_pdf_pages(pdf_path, checkbox_position, checkbox_size):
     return results
 
 def check_checkbox(image, checkbox_position, checkbox_size):
-    # Load image
-    image = cv2.imread(image_path)
-
+    # Use the image directly (it's already loaded)
+    
     # Crop the region of interest (ROI) for the checkbox
     x, y, width, height = checkbox_position
     roi = image[y:y + height, x:x + width]
