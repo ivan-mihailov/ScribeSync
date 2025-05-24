@@ -29,9 +29,11 @@ def check_checkbox(image_path, checkbox_position, checkbox_size):
 
 # Usage example
 image_path = "assets/May_2025_with_handwriting_ScribeSync_Logo.pdf"
-# Adjust these values: (x, y, width, height)
-checkbox_position = (100, 200, 20, 20)  # Example values
-checkbox_size = (20, 20)  # Size of the checkbox
+# Calculate position based on logo placement (at 300 DPI)
+x_offset_px = int(3 * 300 / 25.4)  # 3mm from left
+y_offset_px = int(3 * 300 / 25.4)  # 3mm from top
+checkbox_size = (35, 35)  # Size in pixels at 300 DPI
+checkbox_position = (x_offset_px + 20, y_offset_px + 20, checkbox_size[0], checkbox_size[1])  # Offset within logo
 is_checked = check_checkbox(image_path, checkbox_position, checkbox_size)
 
 if is_checked:
