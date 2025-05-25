@@ -13,4 +13,7 @@ dependencies = [
     "python-dotenv>=1.1.0",
     "requests-oauthlib>=2.0.0",
     "opencv-python>=4.11.0.86",
+    "mistralai>=1.7.1",
+    "datauri>=1.0.0",
+    "azure-ai-documentintelligence>=1.0.0",
 ]
